@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: "Tahoma", sans-serif;
+  background: #111;
+  color: white;
+}
+
+header {
+  background: #000;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #00eaff;
+}
+
+.logo {
+  font-size: 28px;
+  color: #00eaff;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00eaff;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to bottom, #000, #111);
+}
+
+.hero h2 {
+  color: #00eaff;
+  font-size: 40px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #00eaff;
+  color: #000;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.products {
+  padding: 40px;
+  text-align: center;
+}
+
+.product {
+  background: #222;
+  width: 280px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #00eaff55;
+  transition: 0.3s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.price {
+  display: block;
+  margin: 10px 0;
+  color: #00eaff;
+  font-size: 20px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background: #00eaff;
+  color: #000;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #00eaff;
+  color: #000;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.contact-btn:hover {
+  background: white;
+}
+
+
+
+button:hover {
+  background: white;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+  margin-top: 40px;
+}
+
+
